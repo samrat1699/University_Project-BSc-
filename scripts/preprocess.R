@@ -2,16 +2,12 @@
 setwd("E:\\download")
 
 
-
-
-
-
 # Load required libraries
 library(nnet)    # multinom()
 library(car)     # vif()
 library(dplyr)   # data manipulation
 
-# Example: assume df is already loaded and cleaned
+
 # Convert outcome and predictors to factors if not done
 df$bmi <- factor(df$bmi, levels = c("Normal", "Underweight", "Overweight", "Obese"))
 
@@ -24,6 +20,8 @@ for (v in factor_vars) {
     df[[v]] <- as.factor(df[[v]])
 }
 
+
+#=================================================================================
 # 1. Univariate multinomial logistic regression to select variables with p < 0.25
 
 significant_vars <- c()
@@ -45,12 +43,16 @@ for (var in factor_vars) {
 
 cat("Variables included in final model:", significant_vars, "\n")
 
+
+#=================================================================================================
 # 2. Fit final multinomial logistic regression with selected variables
 
 formula_final <- as.formula(paste("bmi ~", paste(significant_vars, collapse = " + ")))
 final_model <- multinom(formula_final, data = df, trace = FALSE)
 summary_final <- summary(final_model)
 
+
+#=============================================================================================
 # 3. Calculate AOR, 95% CI and p-values
 
 coef_mat <- coef(final_model)
@@ -77,6 +79,7 @@ results <- data.frame(
     upper_95CI = as.vector(upper_CI)
 )
 
+#==============================================================================================
 # 4. Filter significant predictors only (p < 0.05)
 
 results_significant <- results %>% filter(p_value < 0.05)
@@ -777,4 +780,5 @@ ggplot(bmi_long, aes(x = BMI_Category, y = Prevalence, fill = Residence)) +
         panel.grid.major.x = element_blank()
     ) +
     ylim(0, 45)
+
 
