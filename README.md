@@ -117,14 +117,5 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ```
 
----
-
-If you want, I can **also generate a ready-to-upload GitHub folder** with:
-
-- `scripts/` placeholder files  
-- `data/` folders  
-- `results/` folders  
-- `requirements.R`  
-- This `README.md`  
 
 ```
