@@ -3,14 +3,14 @@
 ---
 
 ````markdown
-# Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh
+Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh
 
 This repository contains the full research project conducted as part of the B.Sc. (Honors) in Statistics program at Jagannath University.
  The study investigates the prevalence and determinants of malnutrition—including underweight, overweight, and obesity—among women of reproductive age (15–49 years) in both urban and rural areas of Bangladesh using BDHS survey data.
 
 ---
 
-## Objective
+Objective
 
 The main objectives of this study are:
 
@@ -20,7 +20,7 @@ The main objectives of this study are:
 
 ---
 
-## Methods
+Methods
 
 The study employed the following statistical methods:
 
@@ -31,7 +31,7 @@ The study employed the following statistical methods:
 
 ---
 
-## Repository Structure
+Repository Structure
 
 ```text
 malnutrition-bdhs/
