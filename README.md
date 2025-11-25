@@ -1,15 +1,16 @@
-Perfect! Here’s the **updated `README.md`** with your repository structure properly formatted, ready to copy-paste directly:
+
 
 ---
 
 ````markdown
 # Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh
 
-This repository contains the full research project conducted as part of the **B.Sc. (Honors) in Statistics** program at **Jagannath University**. The study investigates the prevalence and determinants of malnutrition—including **underweight, overweight, and obesity**—among women of reproductive age (15–49 years) in both **urban and rural areas of Bangladesh** using **BDHS survey data**.
+This repository contains the full research project conducted as part of the B.Sc. (Honors) in Statistics program at Jagannath University.
+ The study investigates the prevalence and determinants of malnutrition—including underweight, overweight, and obesity—among women of reproductive age (15–49 years) in both urban and rural areas of Bangladesh using BDHS survey data.
 
 ---
 
-## 📌 Objective
+## Objective
 
 The main objectives of this study are:
 
@@ -19,18 +20,18 @@ The main objectives of this study are:
 
 ---
 
-## 🧠 Methods
+## Methods
 
 The study employed the following statistical methods:
 
-1. **Descriptive Statistics**
-2. **Chi-square Tests**
-3. **Multinomial Logistic Regression**
-4. **Urban-Rural Stratified Analysis**
+1. Descriptive Statistics
+2. Chi-square Tests
+3. Multinomial Logistic Regression
+4. Urban-Rural Stratified Analysis
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 malnutrition-bdhs/
@@ -55,7 +56,7 @@ malnutrition-bdhs/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 To install all required R packages, run:
 
@@ -71,7 +72,7 @@ install.packages(c("tidyverse", "dplyr", "ggplot2", "nnet", "foreign", "broom", 
 
 ---
 
-## 🔹 How to Run the Project
+##  How to Run the Project
 
 1. Place the BDHS survey dataset inside the `data/raw/` folder.
 2. Run the scripts sequentially:
@@ -126,7 +127,4 @@ If you want, I can **also generate a ready-to-upload GitHub folder** with:
 - `requirements.R`  
 - This `README.md`  
 
-so you can **push it directly to GitHub**.  
-
-Do you want me to do that?
 ```
