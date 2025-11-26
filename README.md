@@ -1,8 +1,4 @@
 
-
-
-
-````markdown
 # Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh
 
 This repository contains the full research project conducted as part of the B.Sc. (Honors) in Statistics program at Jagannath University.
