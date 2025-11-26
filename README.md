@@ -1,6 +1,6 @@
 
 
----
+
 
 ````markdown
 # Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh
@@ -54,7 +54,7 @@ malnutrition-bdhs/
     └── manuscript.md         # Draft manuscript or final report
 ````
 
----
+
 
 ## Requirements
 
