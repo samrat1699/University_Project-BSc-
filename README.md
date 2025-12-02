@@ -84,7 +84,7 @@ Rscript scripts/04_stratified_analysis.R
 
 ---
 
-## 📊 Results
+##  Results
 
 * Prevalence of underweight, overweight, and obesity among urban and rural women.
 * Socioeconomic and demographic determinants.
@@ -93,19 +93,19 @@ Rscript scripts/04_stratified_analysis.R
 
 ---
 
-## 📝 Citation
+##  Citation
 
 > Sharma, S.K.D., et al. (2025). Prevalence and Determinants of Malnutrition Among Women of Reproductive Age in Urban and Rural Bangladesh. B.Sc. (Honors) Thesis, Department of Statistics, Jagannath University, Dhaka.
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 💡 Notes
+##  Notes
 
 * Raw BDHS data cannot be shared publicly. Request access via the [BDHS website](https://dhsprogram.com/).
 * Ensure all dependencies in `requirements.R` are installed before running scripts.
